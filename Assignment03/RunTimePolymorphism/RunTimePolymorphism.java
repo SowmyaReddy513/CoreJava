@@ -1,7 +1,9 @@
+package Assignment03.RunTimePolymorphism;
+
 // Parent class
 class Vehicle {
     void start() {
-        System.out.println("Vehicle starting...");
+        System.out.println("RunTimePolymorphism.Vehicle starting...");
     }
 }
 
@@ -10,7 +12,7 @@ class Car extends Vehicle {
     // Override the start method
     @Override
     void start() {
-        System.out.println("Car starting...");
+        System.out.println("RunTimePolymorphism.Car starting...");
     }
 }
 
@@ -22,7 +24,7 @@ public class RunTimePolymorphism {
         Vehicle car = new Car();
 
         // Demonstrate runtime polymorphism
-        vehicle.start(); // Output: Vehicle starting...
-        car.start();     // Output: Car starting...
+        vehicle.start(); // Output: RunTimePolymorphism.Vehicle starting...
+        car.start();     // Output: RunTimePolymorphism.Car starting...
     }
 }
