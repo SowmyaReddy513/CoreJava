@@ -1,4 +1,4 @@
-package Assignment03.RunTimePolymorphism;
+package oops.RunTimePolymorphism;
 
 // Parent class
 class Vehicle {

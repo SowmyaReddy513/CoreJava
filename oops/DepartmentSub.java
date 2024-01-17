@@ -1,4 +1,4 @@
-package Assignment03;
+package oops;
 
 public class DepartmentSub extends Department {
     private int size;

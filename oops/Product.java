@@ -1,4 +1,4 @@
-package Assignment03;
+package oops;
 
 public class Product {
     private double price;
