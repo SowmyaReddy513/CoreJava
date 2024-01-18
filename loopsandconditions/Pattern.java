@@ -1,5 +1,6 @@
 package loopsandconditions;
 public class Pattern {
+
     public static void main(String[] args) {
         // Loop through each row
         for (int i = 1; i <= 5; i++) {
