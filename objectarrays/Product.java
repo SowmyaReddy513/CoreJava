@@ -6,14 +6,12 @@ public class Product implements Comparable<Product> {
     private double weight;
     private double price;
     private int id;
-
     // Constructor
     public Product(double weight, double price, int id) {
         this.weight = weight;
         this.price = price;
         this.id = id;
     }
-
     // Comparable Interface method to compare based on price
     @Override
     public int compareTo(Product otherProduct) {

@@ -10,7 +10,6 @@ public class Movie {
     private double rating;
     private double budget;
     private double collectionAmount;
-
     // Constructor
     public Movie(int yearReleased, double rating, double budget, double collectionAmount) {
         this.yearReleased = yearReleased;

@@ -7,7 +7,6 @@ public class Person {
     private double weight;
     private String ssn;
     private String phoneNumber;
-
     // Constructor
     public Person(double height, double weight, String ssn, String phoneNumber) {
         this.height = height;
@@ -15,7 +14,6 @@ public class Person {
         this.ssn = ssn;
         this.phoneNumber = phoneNumber;
     }
-
     // Getter methods
 
     public double getHeight() {
